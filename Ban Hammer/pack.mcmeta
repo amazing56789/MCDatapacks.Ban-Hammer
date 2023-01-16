@@ -1,0 +1,20 @@
+{
+    "pack" : {
+        "pack_format" : 10,
+        "description" : [
+            {
+                "text" : "Adds a ban hammer to the game.\n"
+            },
+            {
+                "text" : "--By ",
+                "color" :"gray",
+                "italic" : true
+            },
+            {
+                "text" : "amazing56789",
+                "color" : "dark_red",
+                "italic" : true
+            }
+        ]
+    }
+}

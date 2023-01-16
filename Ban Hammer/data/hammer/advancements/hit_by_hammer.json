@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "hit" : {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity" : {
+                        "equipment": {
+                            "mainhand": {
+                                "items": [
+                                    "minecraft:wooden_hoe"
+                                ],
+                                "nbt": "{ customhammer : ban }"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "hammer:on_hit"
+    }
+}
